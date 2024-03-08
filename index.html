@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>       
+
+<body>
+    <header>
+        <h1>Flight Booking System</h1>
+    </header>
+    <main>
+        <!-- Flight search form -->
+        <form id="flightSearchForm">
+            <label for="departure">Departure:</label>
+            <input type="text" id="departure" name="departure" required>
+            <label for="destination">Destination:</label>
+            <input type="text" id="departure" name="departure" required>
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Search Flights</button>
+        </form>
+        <!-- Flight search results -->
+        <div id="searchResults">
+            <!-- Results will be dynamically populated here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Flight Booking System</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
